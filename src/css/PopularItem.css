@@ -1,0 +1,28 @@
+.popular-item-section{
+    padding-bottom: 80px;
+}
+.popular-item-head .logo-section{
+    width: 20%;
+    margin: auto;
+}
+.popular-item-head{
+    align-items: center;
+    text-align: center;
+}
+.slick-prev:before,.slick-next:before{
+    background-color: #EEEEEE !important;
+    color:black;
+}
+.popular-image-slider .img-box{
+    background-color: #eeeeee;
+}
+.popular-image-slider{
+    padding: 0 10px;
+}
+.popular-image-slider .text-sec{
+    text-align: center;
+}
+.popular-image-slider .text-sec h5{
+    font-size: 18px;
+    font-weight: 600;
+}

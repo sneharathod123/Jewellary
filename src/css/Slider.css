@@ -1,0 +1,40 @@
+.carousel-caption {
+    width: 50%;
+    text-align: start !important;
+    top: 35% !important;
+    right: 50% !important;
+    font-family: "Roboto", sans-serif !important;
+    line-height: 2;
+}
+.carousel-caption h1 {
+    font-weight: 300;
+    font-size: 48px;
+}
+.carousel-caption p {
+    font-weight: 400;
+}
+.carousel-indicators {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .carousel-caption h1 {
+        font-size: 28px !important;
+    }
+    .carousel-caption p {
+        font-size: 10px !important;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .carousel-caption h1 {
+        font-size: 20px !important;
+    }
+    .carousel-caption {
+        top: 10% !important;
+        width: 100%;
+        line-height: 2;
+    }
+    .carousel-caption p {
+        display: none;
+    }
+}

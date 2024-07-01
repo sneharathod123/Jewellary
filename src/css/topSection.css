@@ -1,0 +1,33 @@
+.main-section {
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+.top-wishlist {
+    display: flex !important;
+    color: #A3A2A2 !important;
+}
+.top-wishlist .dropdown-toggle {
+    color: #A3A2A2 !important;
+    width: 50px !important;
+    background-color: white !important;
+    border: none !important;
+}
+.top-wishlist .wish {
+    padding: 9px;
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .logo-sec {
+        display: none;
+    }
+    .top-wishlist {
+        padding: 0;
+        justify-content: space-evenly !important;
+        width: 100% !important;
+    }
+    .main-section{
+        padding: 0 !important;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+}

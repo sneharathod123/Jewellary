@@ -1,0 +1,17 @@
+.featureProductSection {
+    padding: 80px 0;
+    background-color: #eeeeee;
+}
+.featureProductSection .text-section {
+    line-height: 1.8;
+    padding: 10px 10px;
+}
+.featureProductSection .text-section p {
+    color: var(--gray) !important;
+    font-weight: 700;
+}
+.featureProductSection .text-section button {
+    background-color: var(--skin);
+    color: white;
+    font-weight: 500;
+}
