@@ -1,0 +1,76 @@
+.footer-section {
+    color: #cccccc;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.8) url(../assets/footer-bg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    line-height: 2;
+}
+.footer {
+    padding: 70px 0;
+    display: flex;
+}
+.footer h5{
+    padding: 10px 0;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul li a {
+    color: #cccccc !important;
+}
+.footer ul li a:hover{
+    color: var(--skin) !important;
+}
+.footer-section h5 {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-section input{
+    height: 30px;
+}
+.send {
+    background-color: var(--skin);
+    width: 30px;
+    height: 30px;
+}
+.footer-icon {
+    display: flex;
+}
+.footer-icon li {
+    width: 30px;
+    height: 30px;
+    background-color: var(--skin) ;
+    margin: 0 5px;
+    padding: 0 3px;
+    transition: .45s;
+}
+.footer-icon li:hover{
+    background-color: white;
+}
+.footer-section ul {
+    padding-left: 0 !important;
+}
+.footer-box{
+    padding-top: 20px;
+}
+.copy-right{
+    width: 100%;
+    background-color: #000;
+    padding: 20px;
+}
+.copy-right p{
+    margin: 0 !important;
+    color: #cccccc;
+    text-align: center;
+}
+@media screen and (max-width: 1024px) and (min-width: 320px) {
+    .footer-section {
+        width: 100%;
+        height: auto !important;
+    }
+}

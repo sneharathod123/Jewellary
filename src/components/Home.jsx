@@ -7,6 +7,10 @@ import Products from "./Products";
 import FeatureProduct from "./FeatureProduct";
 import Categories from "./Categories";
 import PopularItem from "./PopularItem";
+import Banner from "./Banner";
+import Blog from "./Blog";
+import Partners from "./Partners";
+import FooterSec from "./FooterSec";
 
 function Home() {
   return (
@@ -19,6 +23,10 @@ function Home() {
       <FeatureProduct/>
       <Categories/>
       <PopularItem/>
+      <Banner/>
+      <Blog/>
+      <Partners/>
+      <FooterSec/>
     </>
   );
 }

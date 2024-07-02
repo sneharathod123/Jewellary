@@ -8,7 +8,7 @@ function TopSection() {
   return (
     <div className="main-section ">
       <Navbar expand="lg">
-        <Container>
+        <Container >
           <Navbar.Brand href="#home">
             <div className="logo-sec">
               <img src={require(`../assets/logo.png`)} alt="img" />

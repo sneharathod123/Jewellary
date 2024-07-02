@@ -28,6 +28,10 @@ button:hover{
   background-color: #e4b970;
   color: white;
 }
+a{
+  text-decoration: none !important; 
+  color: black !important;
+}
 .gray{
   color: #777777;
   font-weight: 500;

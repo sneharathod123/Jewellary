@@ -1,15 +1,30 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../css/categories.css";
+import { category1, category2, category3, category4 } from "./asstes";
 
 function Categories() {
+  let data = [
+    {
+      img: category1,
+    },
+    {
+      img: category2,
+    },
+    {
+      img: category3,
+    },
+    {
+      img: category4,
+    },
+  ];
   return (
     <div className="categories-section">
       <Container>
-        <div className="categories-head">
+        <div className="head">
           <div className="text-section">
             <h3>Our Categories</h3>
-            <div className="categories-head-img">
+            <div className="head-img">
               <img src={require("../assets/logoImage.png")} alt="img" />
             </div>
             <p className="gray">
@@ -20,70 +35,28 @@ function Categories() {
         </div>
         <div className="categories-card">
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-3">
-              <div className="category-card">
-                <img src={require("../assets/category1.png")} alt="img" />
-                <div className="category-text">
-                  <h5>Necklaces And Rings</h5>
-                  <p className="gray">View the collection</p>
-                </div>
-                <div className="category-card-body">
-                  <div className="txt-sec">
-                    <h5>Necklaces And Rings</h5>
-                    <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
-                    <button>View Shop</button>
+            {data.map((item, index) => {
+              return (
+                <div className="col-12 col-md-6 col-lg-3" key={index}>
+                  <div className="category-card">
+                    <img src={item.img} alt="img" />
+                    <div className="category-text">
+                      <h5>Necklaces And Rings</h5>
+                      <p className="gray">View the collection</p>
+                    </div>
+                    <div className="category-card-body">
+                      <div className="txt-sec">
+                        <h5>Necklaces And Rings</h5>
+                        <p>
+                          Lorem Ipsum is a dummy text that is mainly used by.
+                        </p>
+                        <button><a href="/collection">View Shop</a></button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3">
-              <div className="category-card">
-                <img src={require("../assets/category2.png")} alt="img" />
-                <div className="category-text">
-                  <h5>Necklaces And Rings</h5>
-                  <p className="gray">View the collection</p>
-                </div>
-                <div className="category-card-body">
-                  <div className="txt-sec">
-                    <h5>Necklaces And Rings</h5>
-                    <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
-                    <button>View Shop</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3">
-              <div className="category-card">
-                <img src={require("../assets/category3.png")} alt="img" />
-                <div className="category-text">
-                  <h5>Necklaces And Rings</h5>
-                  <p className="gray">View the collection</p>
-                </div>
-                <div className="category-card-body">
-                  <div className="txt-sec">
-                    <h5>Necklaces And Rings</h5>
-                    <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
-                    <button>View Shop</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-3">
-              <div className="category-card">
-                <img src={require("../assets/category4.png")} alt="img" />
-                <div className="category-text">
-                  <h5>Necklaces And Rings</h5>
-                  <p className="gray">View the collection</p>
-                </div>
-                <div className="category-card-body">
-                  <div className="txt-sec">
-                    <h5>Necklaces And Rings</h5>
-                    <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
-                    <button>View Shop</button>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </Container>

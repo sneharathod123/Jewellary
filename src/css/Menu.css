@@ -5,12 +5,12 @@
 }
 .navbar a.nav-link,
 a.nav-link:focus {
-    color: white;
+    color: white !important;
     padding: 0 20px !important;
     font-size: 18px;
 }
 a.nav-link:hover {
-    color: var(--skin);
+    color: var(--skin) !important;
 }
 .dropdown-menu {
     top: 52px !important;
@@ -41,7 +41,6 @@ div.dropdown-menu.show {
 .menu {
     justify-content: space-evenly !important;
 }
-
 @media screen and (max-width: 2561px) and (min-width: 768px) {
     .logo {
         display: none;
@@ -52,7 +51,12 @@ div.dropdown-menu.show {
         padding: 0 10px !important;
     }
 }
-@media screen and (max-width: 425px) and (min-width: 320px) {
+@media screen and (max-width: 900px) and (min-width: 768px){
+    .navbar a.nav-link{
+        padding: 0 10px !important;
+    }
+}
+@media screen and (max-width: 428px) and (min-width: 320px) {
     .menu-icons {
         display: none !important;
     }

@@ -3,8 +3,8 @@
     background-color: #eeeeee;
 }
 .featureProductSection .text-section {
-    line-height: 1.8;
-    padding: 10px 10px;
+    line-height: 1.5;
+    padding: 0px 10px;
 }
 .featureProductSection .text-section p {
     color: var(--gray) !important;
