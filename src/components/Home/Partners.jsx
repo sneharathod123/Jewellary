@@ -1,11 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import partner1 from "../assets/Partner1.png";
-import partner2 from "../assets/Partner2.png";
-import partner3 from "../assets/Partner3.png";
-import partner4 from "../assets/Partner4.png";
-import '../css/partner.css'
+import {partner1,partner2,partner3,partner4,logo} from '../asstes'
+import '../../css/partner.css'
 function Partners() {
   let settings = {
     // dots: true,
@@ -62,7 +59,7 @@ function Partners() {
           <div className="text-section">
             <h3>Our Partners</h3>
             <div className="head-img">
-              <img src={require("../assets/logoImage.png")} alt="img" />
+              <img src={logo} alt="img" />
             </div>
             <p className="gray">
               Lorem ipsum dolor sit amet <br /> consectetueradipiscing elit, sed

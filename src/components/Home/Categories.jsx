@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../css/categories.css";
-import { category1, category2, category3, category4 } from "./asstes";
+import "../../css/categories.css";
+import { category1, category2, category3, category4 ,logo} from "../asstes";
 
 function Categories() {
   let data = [
@@ -25,7 +25,7 @@ function Categories() {
           <div className="text-section">
             <h3>Our Categories</h3>
             <div className="head-img">
-              <img src={require("../assets/logoImage.png")} alt="img" />
+              <img src={logo} alt="img" />
             </div>
             <p className="gray">
               Lorem ipsum dolor sit amet <br /> consectetueradipiscing elit, sed

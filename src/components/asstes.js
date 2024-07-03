@@ -20,12 +20,38 @@ import banner from "../assets/banner1.jpg";
 import blog1 from "../assets/blog1.jpg";
 import blog2 from "../assets/blog2.jpg";
 import blog3 from "../assets/blog3.jpg";
-import partner1 from '../assets/Partner1.png'
-import partner2 from '../assets/Partner2.png'
-import partner3 from '../assets/Partner3.png'
-import partner4 from '../assets/Partner4.png'
+import partner1 from "../assets/Partner1.png";
+import partner2 from "../assets/Partner2.png";
+import partner3 from "../assets/Partner3.png";
+import partner4 from "../assets/Partner4.png";
+import FeaturedImage from "../assets/Featured-img.jpg";
+import slide1 from "../assets/slide1.png";
+import slide2 from "../assets/slide2.png";
+import video from "../assets/video.mp4";
+import logo from "../assets/logoImage.png";
+import logo2 from "../assets/logoImage-removebg-preview.png";
+import collectionSec1 from "../assets/collection-2-page1.jpg";
+import collectionSec2 from "../assets/collection-2-page2.jpg";
+import collectionSec3 from "../assets/collection-2-page3.jpg";
+import collectionSec4 from "../assets/collection-2-page4.jpg";
+import collectionSec5 from "../assets/collection-2-page5.jpg";
+import collectionSec6 from "../assets/collection-2-page6.jpg";
 
+// collectpage 2
+import collect3_1 from "../assets/collect3-1.jpg";
+import collect3_2 from "../assets/collect3-2.jpg";
+
+//collection4
+import exploreCollection1 from '../assets/exploreCollection1.jpg' 
+import exploreCollection2 from '../assets/exploreCollection2.jpg' 
+import exploreCollection3 from '../assets/exploreCollection3.jpg' 
+import exploreCollection4 from '../assets/exploreCollection4.jpg' 
 export {
+  FeaturedImage,
+  logo2,
+  logo,
+  slide1,
+  slide2,
   slider3,
   slider2,
   slider1,
@@ -52,4 +78,17 @@ export {
   partner2,
   partner3,
   partner4,
+  video,
+  collectionSec1,
+  collectionSec2,
+  collectionSec3,
+  collectionSec4,
+  collectionSec5,
+  collectionSec6,
+  collect3_1,
+  collect3_2,
+  exploreCollection1,
+  exploreCollection2,
+  exploreCollection3,
+  exploreCollection4
 };

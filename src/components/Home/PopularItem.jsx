@@ -1,27 +1,26 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../css/PopularItem.css";
+import "../../css/PopularItem.css";
 import Slider from "react-slick";
 import { Box, Rating } from "@mui/material";
-import img1 from "../assets/slide1.png";
-import img2 from "../assets/slide2.png";
+import {slide1,slide2 ,logo} from '../asstes'
 
 function PopularItem() {
   let data = [
     {
-      img: img1,
+      img: slide1,
       title: "High Designer Jewellery",
     },
     {
-      img: img1,
+      img: slide1,
       title: "High Designer Jewellery",
     },
     {
-      img: img2,
+      img: slide2,
       title: "High Designer Jewellery",
     },
     {
-      img: img1,
+      img: slide1,
       title: "High Designer Jewellery",
     },
   ];
@@ -68,7 +67,7 @@ function PopularItem() {
             <div className="text-section">
               <h3>Popular Items</h3>
               <div className="head-img">
-                <img src={require("../assets/logoImage.png")} alt="img" />
+                <img src={logo} alt="img" />
               </div>
               <p className="gray">
                 Lorem ipsum dolor sit amet <br /> consectetueradipiscing elit,

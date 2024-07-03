@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../css/Collection.css";
-import { collection1, collection2, collection3 } from "./asstes";
+import "../../css/Collection.css";
+import { collection1, collection2, collection3 } from "../asstes";
 
 function Collection() {
   let data = [

@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../css/featureProduct.css";
+import "../../css/featureProduct.css";
 import Box from "@mui/material/Box";
 import Rating from "@mui/material/Rating";
-// import Typography from '@mui/material/Typography';
+import {FeaturedImage} from '../asstes'
 
 function FeatureProduct() {
   const [value, setValue] = React.useState(2);
@@ -13,7 +13,7 @@ function FeatureProduct() {
         <div className="row ">
           <div className="col-12 col-lg-6">
             <div className="img-section">
-              <img src={require("../assets/Featured-img.jpg")} alt="img" />
+              <img src={FeaturedImage} alt="img" />
             </div>
           </div>
           <div className="col-12 col-lg-6">

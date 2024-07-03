@@ -46,6 +46,11 @@ div.dropdown-menu.show {
         display: none;
     }
 }
+@media screen and (max-width: 764px) and (min-width: 425px){
+    .menu-icons {
+        display: none !important;
+    }
+}
 @media screen and (max-width: 768px){
     .navbar a.nav-link{
         padding: 0 10px !important;

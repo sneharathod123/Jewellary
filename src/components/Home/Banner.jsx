@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../css/banner.css";
+import "../../css/banner.css";
 function Banner() {
   return (
     <div className="Banner-section">

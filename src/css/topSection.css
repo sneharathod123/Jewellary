@@ -30,3 +30,13 @@
         padding: 0 !important;
     }
 }
+@media screen and (max-width: 764px) and (min-width: 425px){
+    .logo-sec {
+        display: none;
+    }
+    .top-wishlist {
+        padding: 0;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+}

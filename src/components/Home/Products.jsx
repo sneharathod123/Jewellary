@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Product.css";
+import "../../css/Product.css";
 import { Container } from "react-bootstrap";
 import {
   product2,
@@ -10,7 +10,8 @@ import {
   product6,
   product7,
   product8,
-} from "./asstes";
+  logo
+} from "../asstes";
 
 function Products() {
   let data = [
@@ -46,7 +47,7 @@ function Products() {
           <div className="text-section">
             <h3>Our Products</h3>
             <div className="head-img">
-              <img src={require("../assets/logoImage.png")} alt="img" />
+              <img src={logo} alt="img" />
             </div>
             <p className="gray">
               Lorem ipsum dolor sit amet <br /> consectetueradipiscing elit, sed

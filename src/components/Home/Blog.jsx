@@ -1,7 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { blog1, blog2, blog3 } from "./asstes";
-import "../css/Blog.css";
+import { blog1, blog2, blog3 ,logo} from "../asstes";
+import "../../css/Blog.css";
+ 
 
 function Blog() {
   let data = [
@@ -22,7 +23,7 @@ function Blog() {
           <div className="text-section">
             <h3>Our Blog</h3>
             <div className="head-img">
-              <img src={require("../assets/logoImage.png")} alt="img" />
+              <img src={logo} alt="img" />
             </div>
             <p className="gray">
               Lorem ipsum dolor sit amet <br /> consectetueradipiscing elit, sed

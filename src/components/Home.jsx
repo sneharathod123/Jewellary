@@ -1,32 +1,32 @@
 import React from "react";
 import TopSection from "./TopSection";
 import Menu from "./Menu";
-import Slider from "./Slider";
-import Collection from "./Collection";
-import Products from "./Products";
-import FeatureProduct from "./FeatureProduct";
-import Categories from "./Categories";
-import PopularItem from "./PopularItem";
-import Banner from "./Banner";
-import Blog from "./Blog";
-import Partners from "./Partners";
+import Slider from "../components/Home/Slider";
+import Collection from "../components/Home/Collection";
+import Products from "../components/Home/Products";
+import FeatureProduct from "../components/Home/FeatureProduct";
+import Categories from "../components/Home/Categories";
+import PopularItem from "../components/Home/PopularItem";
+import Banner from "../components/Home/Banner";
+import Blog from "../components/Home/Blog";
+import Partners from "../components/Home/Partners";
 import FooterSec from "./FooterSec";
 
 function Home() {
   return (
     <>
       <TopSection />
-      <Menu/>
-      <Slider/>
-      <Collection/>
-      <Products/>
-      <FeatureProduct/>
-      <Categories/>
-      <PopularItem/>
-      <Banner/>
-      <Blog/>
-      <Partners/>
-      <FooterSec/>
+      <Menu />
+      <Slider />
+      <Collection />
+      <Products />
+      <FeatureProduct />
+      <Categories />
+      <PopularItem />
+      <Banner />
+      <Blog />
+      <Partners />
+      <FooterSec />
     </>
   );
 }
