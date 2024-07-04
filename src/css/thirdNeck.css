@@ -1,0 +1,58 @@
+.thirdNecklessSection {
+    padding: 50px 0;
+}
+.thirdNecklessSection .second-col {
+    background-color: #53483f;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+}
+.thirdNecklessSection .second-col .first-text-sec {
+    padding: 70px 30px;
+    font-family: "Cormorant", serif;
+    line-height: 1.8;
+}
+.thirdNecklessSection .second-col .first-text-sec button,
+.thirdNecklessSection .second-col .first-text-sec h2 {
+    margin: 20px 0;
+}
+
+.thirdNecklessSection .row > * {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.thirdNecklessSection .second-col .first-text-sec .third-sec-logo {
+    width: 40%;
+}
+.thirdNecklessSection .second-col .second-sec {
+    padding: 100px 0;
+    background-image: url(../assets/leafBg.png);
+    background-repeat: no-repeat;
+}
+.thirdNecklessSection .second-sec-img {
+    width: 50%;
+}
+@media screen and (max-width: 425px) and (min-width: 100px) {
+    .thirdNecklessSection .second-col {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .thirdNecklessSection .second-col .second-sec {
+        display: none;
+    }
+}
+@media screen and (max-width: 1440px) and (min-width: 1000px) {
+    .thirdNecklessSection .second-col .first-text-sec button,
+    .thirdNecklessSection .second-col .first-text-sec h2 {
+        margin:  5px 0;
+    }
+    .thirdNecklessSection .second-col .first-text-sec h2{
+        font-size: 25px;
+    }
+    .thirdNecklessSection .second-col .second-sec {
+        margin:  50px;
+    }
+    .thirdNecklessSection .second-col .first-text-sec {
+        padding: 0px 10px;
+    }
+}

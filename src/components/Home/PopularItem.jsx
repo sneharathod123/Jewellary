@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import "../../css/PopularItem.css";
 import Slider from "react-slick";
 import { Box, Rating } from "@mui/material";
-import {slide1,slide2 ,logo} from '../asstes'
+import { slide1, slide2, logo } from "../asstes";
 
 function PopularItem() {
   let data = [
@@ -102,7 +102,9 @@ function PopularItem() {
                         </Box>
                         <p className="gray">100.00$</p>
                         <div className="popular-button">
-                          <button>Quick View</button>
+                          <button>
+                            <a href="/Neckless">Quick View</a>
+                          </button>
                         </div>
                       </div>
                     </div>

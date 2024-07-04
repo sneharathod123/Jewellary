@@ -10,7 +10,7 @@
     flex-direction: column;
     font-family: "Cormorant", serif;
 }
-.row>*{
+.ourCollectionThird .row>*{
     padding-right: 10px !important;
 }
 .ourCollectionThird  a:hover{

@@ -42,11 +42,36 @@ import collect3_1 from "../assets/collect3-1.jpg";
 import collect3_2 from "../assets/collect3-2.jpg";
 
 //collection4
-import exploreCollection1 from '../assets/exploreCollection1.jpg' 
-import exploreCollection2 from '../assets/exploreCollection2.jpg' 
-import exploreCollection3 from '../assets/exploreCollection3.jpg' 
-import exploreCollection4 from '../assets/exploreCollection4.jpg' 
+import exploreCollection1 from "../assets/exploreCollection1.jpg";
+import exploreCollection2 from "../assets/exploreCollection2.jpg";
+import exploreCollection3 from "../assets/exploreCollection3.jpg";
+import exploreCollection4 from "../assets/exploreCollection4.jpg";
+
+//neckless images
+import necklessHeroImg from "../assets/heroSectionImg2.jpg";
+import NecklessSecond1 from "../assets/necklesSecond1.png";
+import NecklessSecond2 from "../assets/NecklessSecond2.png";
+import NecklessSecond3 from "../assets/NecklessSecond3.png";
+import NecklessSecond4 from "../assets/NecklessSecond4.png";
+import NecklessSecond5 from "../assets/NecklessSecond5.jpg";
+import NecklessSecond6 from "../assets/NecklessSecond6.jpg";
+import NecklessSecond7 from "../assets/NecklessSecond7.jpg";
+
+import NecklessThird1 from "../assets/neckless1.jpg.webp";
+import NecklessThirdLogo from "../assets/necklessThirdLogo.png";
+import gridAfter from "../assets/gridAfter.png";
 export {
+  gridAfter,
+  NecklessThirdLogo,
+  NecklessThird1,
+  NecklessSecond1,
+  NecklessSecond2,
+  NecklessSecond3,
+  NecklessSecond4,
+  NecklessSecond5,
+  NecklessSecond6,
+  NecklessSecond7,
+  necklessHeroImg,
   FeaturedImage,
   logo2,
   logo,
@@ -90,5 +115,5 @@ export {
   exploreCollection1,
   exploreCollection2,
   exploreCollection3,
-  exploreCollection4
+  exploreCollection4,
 };

@@ -1,0 +1,62 @@
+.secondSectionNeck {
+    padding: 50px 0;
+}
+.secondSectionNeck h3 {
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-size: 40px;
+}
+.image-boxes {
+    display: flex;
+}
+.subclass {
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondSectionNeck .boxes {
+    margin-top: 10px;
+}
+.side-box {
+    width: 25%;
+    margin-top: 10px;
+}
+.side-box .text-section button {
+    line-height: 1;
+    margin-top: 20px;
+}
+.side-box .text-section {
+    padding: 20px;
+    color: white;
+    background-color: #53483f;
+    text-align: center;
+    line-height: 3.5;
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .side-box {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .side-box {
+        display: none;
+    }
+    .side-box .text-section h1 {
+        font-size: 20px;
+    }
+    .side-box .text-section {
+        padding: 9px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .side-box .text-section {
+        padding: 5px;
+    }
+    .side-box .text-section h1 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 100px) {
+    .side-box {
+        display: none;
+    }
+}

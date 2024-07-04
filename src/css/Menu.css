@@ -66,3 +66,8 @@ div.dropdown-menu.show {
         display: none !important;
     }
 }
+@media screen and (max-width: 992px) and (min-width: 890px){
+    .navbar a.nav-link{
+        padding: 0 10px !important;
+    }
+}
