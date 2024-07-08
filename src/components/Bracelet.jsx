@@ -6,6 +6,7 @@ import CollectOne from "./Collections/CollectOne";
 import BraceletSecond from "./Bracelet/BraceletSecond";
 import BraceletThird from "./Bracelet/BraceletThird";
 import BraceletFourth from "./Bracelet/BraceletFourth";
+import Testimoniol from "./Bracelet/Testimoniol";
 
 function Bracelet() {
   return (
@@ -16,6 +17,7 @@ function Bracelet() {
       <BraceletSecond/>
       <BraceletThird/>
       <BraceletFourth/>
+      <Testimoniol/>
       <FooterSec />
     </div>
   );

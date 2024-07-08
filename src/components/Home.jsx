@@ -11,13 +11,14 @@ import Banner from "../components/Home/Banner";
 import Blog from "../components/Home/Blog";
 import Partners from "../components/Home/Partners";
 import FooterSec from "./FooterSec";
-import GotoTop from "./GotoTop";
+import Header from "./Header";
 
 function Home() {
   return (
     <>
-      <TopSection />
-      <Menu />
+      {/* <TopSection /> */}
+      {/* <Menu /> */}
+      <Header/>
       <Slider />
       <Collection />
       <Products />

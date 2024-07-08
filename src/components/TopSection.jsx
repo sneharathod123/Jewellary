@@ -14,6 +14,7 @@ function TopSection() {
               <img src={require(`../assets/AnotherLogo.png`)} alt="img" />
             </div>
           </Navbar.Brand>
+          
           <div className="top-wishlist">
             <div className="wish">
               <i className="fa-solid fa-heart"></i>My Wishlist
@@ -35,7 +36,6 @@ function TopSection() {
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
                   ENG
                 </Dropdown.Toggle>
-
                 <Dropdown.Menu>
                   <Dropdown.Item href="#/action-1">ENG</Dropdown.Item>
                   <Dropdown.Item href="#/action-1">GER</Dropdown.Item>
@@ -43,21 +43,6 @@ function TopSection() {
               </Dropdown>
             </div>
           </div>
-          {/* <Navbar.Collapse id="basic-navbar-nav " className="top-menu">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home links">
-                <i className="fa-solid fa-heart"></i>My Wishlist
-              </Nav.Link>
-              <NavDropdown title="ENG" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">GER</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="USD" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">AUD</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">AUR</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.1">GBP</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </div>

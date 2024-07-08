@@ -3,7 +3,8 @@
 
 :root{
   --skin :#b3873d;
-  --gray:#777777
+  --gray:#777777;
+  --header-background:  rgba(0, 0, 0, 0.7);
 }
 
 
