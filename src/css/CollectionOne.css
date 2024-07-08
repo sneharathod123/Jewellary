@@ -1,6 +1,6 @@
 video {
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     object-fit: cover;
 }
 .collection-bgContainer .overlay {
@@ -11,15 +11,15 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .collection-bgContainer .text-container {
     color: white;
     position: absolute;
     width: 77%;
     height: auto;
-    top: 50%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -27,27 +27,12 @@ video {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: "Cormorant", serif;
 }
 .collection-bgContainer .text-container h3 {
     font-weight: 700;
-}
-.collection-bgContainer .head-logo {
-    width: 20%;
 }
 .collection-bgContainer .text-container a {
     color: white !important;
 }
 
-/* .collection-bgContainer .container {
-    position: absolute;
-    width: 77%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */

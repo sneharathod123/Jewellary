@@ -12,13 +12,13 @@ function Menu() {
         <Container>
           <Navbar.Brand href="#home">
             <div className="logo">
-              <img src={require("../assets/logo2.png")} alt="" />
+              <img src={require("../assets/canadian-rocks-icon.png")} alt="" />
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto navbar">
-              <Nav.Link href="#home links">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Page" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1"> Account</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

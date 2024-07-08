@@ -13,11 +13,9 @@ function CollectOne() {
             <div className="video-css"></div>
           </div>
           <div className="text-container">
-            <h3>Collection</h3>
-            <div className="head-logo">
-              <img src={logo2} alt="img" />
-            </div>
-            <a href="/">Home</a>
+            <h3>
+            FINE JEWELRY EVERYDAY</h3>
+            <a href="/">EXPLORE OUR COLLECTION</a>
           </div>
         </div>
       </div>

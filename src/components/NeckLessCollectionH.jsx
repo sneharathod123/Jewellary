@@ -5,6 +5,7 @@ import Menu from "./Menu";
 import SecondNeckS from "./NeckLessCollection/SecondNeckS";
 import ThirdNeckS from "./NeckLessCollection/ThirdNeckS";
 import FooterSec from './FooterSec'
+import GotoTop from "./GotoTop";
 
 function NeckLessCollectionH() {
   return (

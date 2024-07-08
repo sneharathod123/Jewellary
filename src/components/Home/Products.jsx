@@ -93,8 +93,8 @@ function Products() {
                     <Popup trigger={buttonPopup} setTrigger={SetButtonPopup}>
                       <hr />
                       <div className="main-box">
-                        <div className="popup-img">
-                          <img src={product4} alt="img" />
+                        <div className="popup-img" key={index}>
+                          <img src={item.img} alt="img" />
                         </div>
                         <div className="text-section">
                           <h5>High Designer Jewellery</h5>

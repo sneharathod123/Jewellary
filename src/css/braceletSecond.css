@@ -1,0 +1,12 @@
+.bracelet-second-section{
+    /* padding: 50px 0; */
+    font-family: "Cormorant", serif
+}
+.bracelet-second-section .img-section{
+    width: 50%;
+    margin: 0 auto;
+}
+.bracelet-second-section .text-section{
+    text-align: center;
+    line-height: 1.8;
+}

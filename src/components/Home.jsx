@@ -11,6 +11,7 @@ import Banner from "../components/Home/Banner";
 import Blog from "../components/Home/Blog";
 import Partners from "../components/Home/Partners";
 import FooterSec from "./FooterSec";
+import GotoTop from "./GotoTop";
 
 function Home() {
   return (

@@ -23,15 +23,17 @@ function Collection() {
             return (
               <div key={index} className="col-12  col-md-4">
                 <div className="card">
-                  <img src={item.img} alt="img" className="card=img" />
-                  <div className="card-body">
-                    <div className="card-title">
-                      <h3>
-                        Women's <br />
-                        Diamond Jewellery
-                      </h3>
+                  <a href="/Bracelet">
+                    <img src={item.img} alt="img" className="card=img" />
+                    <div className="card-body">
+                      <div className="card-title">
+                        <h3>
+                          Women's <br />
+                          Diamond Jewellery
+                        </h3>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             );

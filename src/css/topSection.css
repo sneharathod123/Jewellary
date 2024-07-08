@@ -1,12 +1,14 @@
 .main-section {
-    padding: 10px;
+    /* padding: 10px; */
+    text-transform: uppercase;
+    letter-spacing: 1;
 }
 .top-wishlist {
     display: flex !important;
-    color: #A3A2A2 !important;
+    color: #777777 !important;
 }
 .top-wishlist .dropdown-toggle {
-    color: #A3A2A2 !important;
+    color: #777777 !important;
     width: 50px !important;
     background-color: white !important;
     border: none !important;

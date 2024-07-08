@@ -11,7 +11,7 @@ function TopSection() {
         <Container className="">
           <Navbar.Brand href="#home">
             <div className="logo-sec">
-              <img src={require(`../assets/logo.png`)} alt="img" />
+              <img src={require(`../assets/AnotherLogo.png`)} alt="img" />
             </div>
           </Navbar.Brand>
           <div className="top-wishlist">
