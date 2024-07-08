@@ -16,7 +16,7 @@
     width: 371px;
     height: 560px;
     position: relative;
-    margin: 0 20px !important;
+    /* margin: 0 20px !important; */
 }
 .Bracelet-Third-section .img-section img {
     width: 100%;
@@ -32,24 +32,43 @@
     display: flex;
     width: 100%;
 }
-.Bracelet-Third-section .title{
+.Bracelet-Third-section .title {
     position: absolute;
     bottom: 0;
     left: 30%;
     color: white;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px){
+@media screen and (max-width: 1280px) and (min-width: 1024px){
+    .Bracelet-Third-section .img-section {
+        margin: 0 10px !important;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .Bracelet-Third-section .img-section {
         width: 240px;
         height: 360px;
         position: relative;
     }
+    .Bracelet-Third-section .text-section h1 {
+        font-weight: 800;
+        font-size: 18px !important;
+    }
+    .Bracelet-Third-section .title {
+        left: 10% !important;
+    }
+    .Bracelet-Third-section .img-section {
+        margin: 0 10px !important;
+    }
 }
-@media screen and (max-width: 768px) and (min-width: 500px){
+@media screen and (max-width: 768px) and (min-width: 500px) {
     .Bracelet-Third-section .img-section {
         width: 180px;
         height: 300px;
         position: relative;
+    }
+    .Bracelet-Third-section .text-section h1 {
+        font-weight: 800;
+        font-size: 18px !important;
     }
 }
 @media screen and (max-width: 500px) and (min-width: 425px) {
