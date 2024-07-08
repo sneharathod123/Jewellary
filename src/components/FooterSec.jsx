@@ -22,7 +22,7 @@ function FooterSec() {
                 industry Lorem Ipsum has been the industry.
               </p>
               <EmailOutlinedIcon />
-              hello@gmail.com
+              hello@gmail.con
               <br />
               <LocalPhoneOutlinedIcon />
               P: 3333 222 1111,
