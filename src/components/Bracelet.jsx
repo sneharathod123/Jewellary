@@ -7,12 +7,14 @@ import BraceletSecond from "./Bracelet/BraceletSecond";
 import BraceletThird from "./Bracelet/BraceletThird";
 import BraceletFourth from "./Bracelet/BraceletFourth";
 import Testimoniol from "./Bracelet/Testimoniol";
+import Header from "./Header";
 
 function Bracelet() {
   return (
     <div>
-      <TopSection />
-      <Menu />
+      {/* <TopSection /> */}
+      {/* <Menu /> */}
+      <Header/>
       <CollectOne />
       <BraceletSecond/>
       <BraceletThird/>

@@ -6,12 +6,14 @@ import CollectSecond from "./Collections/CollectSecond";
 import CollectThird from "./Collections/CollectThird";
 import CollectionFour from "./Collections/CollectionFour";
 import FooterSec from "./FooterSec";
+import Header from "./Header";
 
 function CollectionPage() {
   return (
     <>
-      <TopSection />
-      <Menu />
+      {/* <TopSection /> */}
+      {/* <Menu /> */}
+      <Header/>
       <CollectOne />
       <CollectSecond/>
       <CollectThird/>
