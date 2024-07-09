@@ -9,6 +9,9 @@ function FirstNeckS() {
         <img src={necklessHeroImg} alt="img" />
         <div className="img-style"></div>
         <div className="text-section">
+          <p>
+            <a href="/home">HOME</a>/RING
+          </p>
           <h1>
             Elegant and timeless pieces <br />
             for the modern woman

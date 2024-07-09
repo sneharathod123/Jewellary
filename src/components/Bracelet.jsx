@@ -2,12 +2,12 @@ import React from "react";
 import TopSection from "./TopSection";
 import Menu from "./Menu";
 import FooterSec from "./FooterSec";
-import CollectOne from "./Collections/CollectOne";
 import BraceletSecond from "./Bracelet/BraceletSecond";
 import BraceletThird from "./Bracelet/BraceletThird";
 import BraceletFourth from "./Bracelet/BraceletFourth";
 import Testimoniol from "./Bracelet/Testimoniol";
 import Header from "./Header";
+import BraceleteOne from "./Bracelet/BraceleteOne";
 
 function Bracelet() {
   return (
@@ -15,7 +15,7 @@ function Bracelet() {
       {/* <TopSection /> */}
       {/* <Menu /> */}
       <Header/>
-      <CollectOne />
+      <BraceleteOne/>
       <BraceletSecond/>
       <BraceletThird/>
       <BraceletFourth/>

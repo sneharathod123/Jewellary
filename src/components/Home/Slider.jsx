@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "../../css/Slider.css";
-import { slider1, slider3, slider2 } from "../asstes";
+import { slider1, slider3, slider2 ,sliderS1,sliderS2,sliderS3} from "../asstes";
 
 function Slider() {
   let data = [

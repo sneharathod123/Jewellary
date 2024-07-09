@@ -3,15 +3,17 @@
     text-align: start !important;
     top: 35% !important;
     right: 50% !important;
-    font-family: "Roboto", sans-serif !important;
+    font-family: "Cormorant", serif !important;
     line-height: 2;
 }
 .carousel-caption h1 {
-    font-weight: 300;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1.8;
 }
 .carousel-caption p {
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 25px !important;
 }
 .carousel-indicators {
     display: none !important;

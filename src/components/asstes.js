@@ -1,3 +1,7 @@
+import AmonaLogo from '../assets/amonaLogo.png'
+import sliderS1 from '../assets/slider-images-01.jpg'
+import sliderS2 from '../assets/jewelery-slider-02.jpg'
+import sliderS3 from '../assets/jewelery-slider-03.jpg'
 import slider1 from "../assets/slider1.jpg";
 import slider2 from "../assets/slider2.jpg";
 import slider3 from "../assets/slider3.jpg";
@@ -29,7 +33,6 @@ import slide1 from "../assets/slide1.png";
 import slide2 from "../assets/slide2.png";
 import video from "../assets/costar.mp4";
 import logo from "../assets/logoImage.png";
-import logo2 from "../assets/logoImage-removebg-preview.png";
 import collectionSec1 from "../assets/collection-2-page1.jpg";
 import collectionSec2 from "../assets/collection-2-page2.jpg";
 import collectionSec3 from "../assets/collection-2-page3.jpg";
@@ -84,6 +87,9 @@ import braceletFourth8B from '../assets/BraceletSec1-8before.jpg'
 import braceletFourth9 from '../assets/BraceletSec1-9.jpg'
 import braceletFourth9B from '../assets/BraceletSec1-9before.jpg'
 export {
+  sliderS1,
+  sliderS2,
+  sliderS3,
   braceletFourth1,
   braceletFourth1B,
   braceletFourth5,
@@ -116,7 +122,6 @@ export {
   NecklessSecond7,
   necklessHeroImg,
   FeaturedImage,
-  logo2,
   logo,
   slide1,
   slide2,
@@ -159,4 +164,5 @@ export {
   exploreCollection2,
   exploreCollection3,
   exploreCollection4,
+  AmonaLogo,
 };
