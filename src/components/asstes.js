@@ -1,7 +1,7 @@
-import AmonaLogo from '../assets/amonaLogo.png'
-import sliderS1 from '../assets/slider-images-01.jpg'
-import sliderS2 from '../assets/jewelery-slider-02.jpg'
-import sliderS3 from '../assets/jewelery-slider-03.jpg'
+import AmonaLogo from "../assets/amonaLogo.png";
+import sliderS1 from "../assets/slider-images-01.jpg";
+import sliderS2 from "../assets/jewelery-slider-02.jpg";
+import sliderS3 from "../assets/jewelery-slider-03.jpg";
 import slider1 from "../assets/slider1.jpg";
 import slider2 from "../assets/slider2.jpg";
 import slider3 from "../assets/slider3.jpg";
@@ -31,7 +31,7 @@ import partner4 from "../assets/Partner4.png";
 import FeaturedImage from "../assets/Featured-img.jpg";
 import slide1 from "../assets/slide1.png";
 import slide2 from "../assets/slide2.png";
-import video from "../assets/costar.mp4";
+import video from "../assets/costarComprese.mp4";
 import logo from "../assets/logoImage.png";
 import collectionSec1 from "../assets/collection-2-page1.jpg";
 import collectionSec2 from "../assets/collection-2-page2.jpg";
@@ -70,22 +70,22 @@ import BraceletSec2 from "../assets/BraceletSec3-2.jpg";
 import BraceletSec3 from "../assets/BraceletSec3-3.jpg";
 import BraceletSec4 from "../assets/BraceletSec3-4.jpg";
 
-import braceletFourth1 from '../assets/BraceletSec1-1.jpg'
-import braceletFourth1B from '../assets/BraceletSec1-1before.jpg'
-import braceletFourth5 from '../assets/BraceletSec1-5.jpg'
-import braceletFourth5B from '../assets/BraceletSec1-5before.jpg'
-import braceletFourth3 from '../assets/BraceletSec1-3.jpg'
-import braceletFourth3B from '../assets/BraceletSec1-3before.jpg'
-import braceletFourth4 from '../assets/BraceletSec1-4.jpg'
-import braceletFourth4B from '../assets/BraceletSec1-4before.jpg'
-import braceletFourth6 from '../assets/BraceletSec1-6.jpg'
-import braceletFourth6B from '../assets/BraceletSec1-6before.jpg'
-import braceletFourth7 from '../assets/BraceletSec1-7.jpg'
-import braceletFourth7B from '../assets/BraceletSec1-7before.jpg'
-import braceletFourth8 from '../assets/BraceletSec1-8.jpg'
-import braceletFourth8B from '../assets/BraceletSec1-8before.jpg'
-import braceletFourth9 from '../assets/BraceletSec1-9.jpg'
-import braceletFourth9B from '../assets/BraceletSec1-9before.jpg'
+import braceletFourth1 from "../assets/BraceletSec1-1.jpg";
+import braceletFourth1B from "../assets/BraceletSec1-1before.jpg";
+import braceletFourth5 from "../assets/BraceletSec1-5.jpg";
+import braceletFourth5B from "../assets/BraceletSec1-5before.jpg";
+import braceletFourth3 from "../assets/BraceletSec1-3.jpg";
+import braceletFourth3B from "../assets/BraceletSec1-3before.jpg";
+import braceletFourth4 from "../assets/BraceletSec1-4.jpg";
+import braceletFourth4B from "../assets/BraceletSec1-4before.jpg";
+import braceletFourth6 from "../assets/BraceletSec1-6.jpg";
+import braceletFourth6B from "../assets/BraceletSec1-6before.jpg";
+import braceletFourth7 from "../assets/BraceletSec1-7.jpg";
+import braceletFourth7B from "../assets/BraceletSec1-7before.jpg";
+import braceletFourth8 from "../assets/BraceletSec1-8.jpg";
+import braceletFourth8B from "../assets/BraceletSec1-8before.jpg";
+import braceletFourth9 from "../assets/BraceletSec1-9.jpg";
+import braceletFourth9B from "../assets/BraceletSec1-9before.jpg";
 export {
   sliderS1,
   sliderS2,

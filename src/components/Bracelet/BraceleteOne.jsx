@@ -1,5 +1,6 @@
 import React from "react";
 import "../../css/CollectionOne.css";
+import { video } from "../asstes";
 function BraceleteOne() {
   return (
     <div>
@@ -8,7 +9,7 @@ function BraceleteOne() {
           <div className="video">
             <video className="videoTag" autoPlay loop muted>
               <source
-                src={` https://gemootest.s3.us-east-2.amazonaws.com/s/res/514885813225336832/7a9b66ee2dbd662f755fed355bc68f2d.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARLZICB6QQHKRCV7K%2F20240709%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20240709T085617Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=b043c36125e2f37a6afb38b652126722702835471301d0a8976472643ca7a8da`}
+                src={video}
                 type="video/mp4"
               />
             </video>

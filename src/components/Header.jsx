@@ -10,7 +10,7 @@ export default function Header() {
       {/* <Navbar expand="lg" className=" main-menu fixed-top"> */}
       <Navbar expand="lg" className=" main-menu">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="">
             <div className="logo">
               <img src={AmonaLogo} alt="img" />
             </div>
@@ -18,12 +18,12 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav ">
             <Nav className="ms-auto">
-              <Link to="/home">Home</Link>
+              <Link to="">Home</Link>
               <NavDropdown title="Pages" id="basic-nav-dropdown" className="dropDown">
                 <NavDropdown.Item href="/Bracelet">Bracellete</NavDropdown.Item>
                 <NavDropdown.Item href="/collection">Ring</NavDropdown.Item>
                 <NavDropdown.Item href="/Neckless">Neckless</NavDropdown.Item>
-                <NavDropdown.Item href="/home">All</NavDropdown.Item>
+                <NavDropdown.Item href="/">All</NavDropdown.Item>
               </NavDropdown>
               <Link to="#">Portfolio</Link>
               <Link to="#">Blogs</Link>
