@@ -30,10 +30,6 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-/* .main-menu .navbar-nav a:hover {
-  transition: all ease-in-out 2s;
-  border-bottom: 1px solid var(--skin);
-} */
 .navbar-nav .nav-link.show {
   color: var(--text);
 }
@@ -62,3 +58,13 @@ a.dropdown-item:hover{
 .dropdown-menu {
   top: 61px !important;
 }
+.dropdown:hover>.dropdown-menu{
+  display: block !important;
+}
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+} */

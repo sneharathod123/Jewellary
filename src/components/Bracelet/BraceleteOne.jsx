@@ -8,16 +8,13 @@ function BraceleteOne() {
         <div className="overlay">
           <div className="video">
             <video className="videoTag" autoPlay loop muted>
-              <source
-                src={video}
-                type="video/mp4"
-              />
+              <source src={video} type="video/mp4" />
             </video>
             <div className="video-css"></div>
           </div>
           <div className="text-container">
             <p>
-              <a href="/home">HOME</a>/BRACELETE
+              <a href="/">HOME</a>/BRACELETE
             </p>
             <h3>FINE JEWELRY EVERYDAY</h3>
             <a href="/">EXPLORE OUR COLLECTION</a>

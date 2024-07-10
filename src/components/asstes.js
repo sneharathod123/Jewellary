@@ -31,7 +31,7 @@ import partner4 from "../assets/Partner4.png";
 import FeaturedImage from "../assets/Featured-img.jpg";
 import slide1 from "../assets/slide1.png";
 import slide2 from "../assets/slide2.png";
-import video from "../assets/costarComprese.mp4";
+import video from "../assets/costar.mp4";
 import logo from "../assets/logoImage.png";
 import collectionSec1 from "../assets/collection-2-page1.jpg";
 import collectionSec2 from "../assets/collection-2-page2.jpg";

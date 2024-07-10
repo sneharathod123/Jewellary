@@ -18,8 +18,12 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav ">
             <Nav className="ms-auto">
-              <Link to="">Home</Link>
-              <NavDropdown title="Pages" id="basic-nav-dropdown" className="dropDown">
+              <Link to="/">Home</Link>
+              <NavDropdown
+                title="Pages"
+                id="basic-nav-dropdown"
+                className="dropDown "
+              >
                 <NavDropdown.Item href="/Bracelet">Bracellete</NavDropdown.Item>
                 <NavDropdown.Item href="/collection">Ring</NavDropdown.Item>
                 <NavDropdown.Item href="/Neckless">Neckless</NavDropdown.Item>
@@ -28,7 +32,7 @@ export default function Header() {
               <Link to="#">Portfolio</Link>
               <Link to="#">Blogs</Link>
               <Link to="#">Shop</Link>
-              <Link to="Contact">Contact</Link>
+              <Link to="#">Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
