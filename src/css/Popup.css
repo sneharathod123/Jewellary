@@ -41,6 +41,10 @@ body:has(.popup){
 .popup-inner .close-btn .css-i4bv87-MuiSvgIcon-root {
     padding-right: 9px !important;
 }
+.css-vubbuv {
+    padding-right: 9px !important;
+
+}
 .popup-inner .close-btn:hover{
     background-color: rgb(77, 77, 77) !important;
     border-radius: 50%;
