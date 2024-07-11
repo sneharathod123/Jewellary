@@ -7,26 +7,62 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0, 0, 0.1);
+    font-family:" Cormorant", serif !important;
+}
+body:has(.popup){
+    overflow-y:hidden !important ;
+    height: 100% !important;
 }
 .popup-inner{
     color: #000;
     position: relative;
-    padding: 32px;
     width: 100%;
     max-width: 50%;
     background-color: #fff;
     box-shadow: 0px 0px 5px rgba(127, 127, 127, 0.4);
-    border-radius: 10px;
+}
+.popup-inner .main-box .text-section{
+    /* padding: 20px; */
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
 }
 .popup-inner .close-btn{
     position: absolute;
     top: 16px;
     right: 16px;
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 14px;
+    transition: .45s;
+    padding-right: 9px;
 }
-@media screen and (max-width: 768px) and (min-width: 100px){
+.popup-inner .close-btn .css-i4bv87-MuiSvgIcon-root {
+    padding-right: 9px;
+}
+.popup-inner .close-btn:hover{
+    background-color: rgb(77, 77, 77) !important;
+    border-radius: 50%;
+}
+.popup-inner .main-box .text-section input{
+    background-color: transparent;
+    margin-top: 15px;
+    border:0;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    width: 90%;
+    height: 30px;
+    color: white;
+}
+@media screen and (max-width: 768px) and (min-width:100px){
+    .main-box .popup-img{
+        display: none;
+    }
+    .popup-inner .main-box .text-section{
+        width: 100%;
+    }
     .popup-inner{
-        max-width: 100%;
+        width: 80% !important;
     }
 }

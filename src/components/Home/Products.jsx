@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "../../css/Product.css";
 import Popup from "./Popup";
 import { Container } from "react-bootstrap";
-import Box from "@mui/material/Box";
-import Rating from "@mui/material/Rating";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import {
   product2,
   product1,
@@ -14,6 +13,7 @@ import {
   product7,
   product8,
   logo,
+  NecklessSecond5,
 } from "../asstes";
 function Products() {
   const [value, setValue] = React.useState(2);
@@ -91,61 +91,21 @@ function Products() {
                       </button>
                     </div>
                     <Popup trigger={buttonPopup} setTrigger={SetButtonPopup}>
-                      <hr />
                       <div className="main-box">
                         <div className="popup-img" key={index}>
-                          <img src={item.img} alt="img" />
+                          <img
+                            src={require("../../assets/imagePopup.jpg")}
+                            alt="img"
+                          />
                         </div>
                         <div className="text-section">
-                          <h5>High Designer Jewellery</h5>
-                          <Box
-                            sx={{
-                              "& > legend": { mt: 2 },
-                            }}
-                          >
-                            <Rating
-                              style={{ color: "#b3873d" }}
-                              name="simple-controlled"
-                              value={value}
-                              onChange={(event, newValue) => {
-                                setValue(newValue);
-                              }}
-                            />
-                          </Box>
+                          <h3>Get 20% discount shipped to your inbox</h3>
                           <p>
-                            Morbi mollis vestibulum sollicitudin. in eros a
-                            justo facilisis rutrum. Aenean id ullamcorper
-                            libero.
+                            Subscribe to our newlletter and we will ship{" "}
+                            <strong>20% discount code</strong>today
                           </p>
-                          <div className="options">
-                            <div className="select">
-                              <div className="first">
-                                <p>
-                                  <label htmlFor="/">Select Color</label>
-                                </p>
-                                <select name="" id="">
-                                  <option value="color">Select Color</option>
-                                  <option value="color">red</option>
-                                  <option value="color">blue</option>
-                                  <option value="color">black</option>
-                                </select>
-                              </div>
-                              <div className="second">
-                                <p>
-                                  <label htmlFor="/">Select size</label>
-                                </p>
-                                <select name="" id="">
-                                  <option value="color">l</option>
-                                  <option value="color">xl</option>
-                                  <option value="color">xxl</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="cart">
-                            <input type="number" />
-                            <button>Add </button>
-                          </div>
+                          <input type="text" placeholder="Email Address..." />
+                          <MailOutlineIcon />
                         </div>
                       </div>
                     </Popup>
