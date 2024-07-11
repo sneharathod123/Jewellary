@@ -6,15 +6,15 @@ import { slider1, slider3, slider2 ,sliderS1,sliderS2,sliderS3} from "../asstes"
 function Slider() {
   let data = [
     {
-      img: sliderS1,
+      img: slider1,
       title: "Designer Jewellery",
     },
     {
-      img: sliderS2,
+      img: slider2,
       title: "Designer Jewellery",
     },
     {
-      img: sliderS3,
+      img: slider3,
       title: "Designer Jewellery",
     },
   ];
