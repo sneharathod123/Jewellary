@@ -6,12 +6,14 @@ import SecondNeckS from "./NeckLessCollection/SecondNeckS";
 import ThirdNeckS from "./NeckLessCollection/ThirdNeckS";
 import FooterSec from './FooterSec'
 import Header from "./Header";
+import LoginPopup from "./LoginPopup";
 
 function NeckLessCollectionH() {
   return (
     <>
       {/* <TopSection /> */}
       {/* <Menu /> */}
+      <LoginPopup/>
       <Header/>
       <FirstNeckS />
       <SecondNeckS/>

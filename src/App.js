@@ -5,6 +5,13 @@ import CollectionPage from "./components/CollectionPage";
 import NeckLessCollectionH from "./components/NeckLessCollectionH";
 import GotoTop from "./components/GotoTop";
 import Bracelet from "./components/Bracelet";
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  gtmId: '<YOUR GTM ID>'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 function App() {
   return (
@@ -15,7 +22,7 @@ function App() {
         <Route path="/Neckless" element={<NeckLessCollectionH />} />
         <Route path="/Bracelet" element={<Bracelet />} />
       </Routes>
-      <GotoTop/>
+      <GotoTop />
     </BrowserRouter>
   );
 }

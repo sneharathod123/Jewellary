@@ -106,6 +106,7 @@ function Products() {
                           </p>
                           <input type="text" placeholder="Email Address..." />
                           <MailOutlineIcon />
+                          <p><a href="/">ContactUs: 3333 222 1111</a></p>
                         </div>
                       </div>
                     </Popup>

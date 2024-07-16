@@ -7,12 +7,14 @@ import CollectThird from "./Collections/CollectThird";
 import CollectionFour from "./Collections/CollectionFour";
 import FooterSec from "./FooterSec";
 import Header from "./Header";
+import LoginPopup from "./LoginPopup";
 
 function CollectionPage() {
   return (
     <>
       {/* <TopSection /> */}
       {/* <Menu /> */}
+      <LoginPopup/>
       <Header/>
       <CollectOne />
       <CollectSecond/>

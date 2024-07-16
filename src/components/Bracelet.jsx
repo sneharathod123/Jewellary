@@ -8,12 +8,14 @@ import BraceletFourth from "./Bracelet/BraceletFourth";
 import Testimoniol from "./Bracelet/Testimoniol";
 import Header from "./Header";
 import BraceleteOne from "./Bracelet/BraceleteOne";
+import LoginPopup from "./LoginPopup";
 
 function Bracelet() {
   return (
     <div>
       {/* <TopSection /> */}
       {/* <Menu /> */}
+      <LoginPopup/>
       <Header/>
       <BraceleteOne/>
       <BraceletSecond/>

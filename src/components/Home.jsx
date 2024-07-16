@@ -12,6 +12,7 @@ import Blog from "../components/Home/Blog";
 import Partners from "../components/Home/Partners";
 import FooterSec from "./FooterSec";
 import Header from "./Header";
+import LoginPopup from "./LoginPopup";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       {/* <TopSection /> */}
       {/* <Menu /> */}
       <Header/>
+      <LoginPopup/>
       <Slider />
       <Collection />
       <Products />
