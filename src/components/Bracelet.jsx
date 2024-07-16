@@ -1,6 +1,6 @@
 import React from "react";
-import TopSection from "./TopSection";
-import Menu from "./Menu";
+// import TopSection from "./TopSection";
+// import Menu from "./Menu";
 import FooterSec from "./FooterSec";
 import BraceletSecond from "./Bracelet/BraceletSecond";
 import BraceletThird from "./Bracelet/BraceletThird";

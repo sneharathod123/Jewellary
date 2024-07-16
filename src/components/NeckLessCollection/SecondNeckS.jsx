@@ -6,9 +6,9 @@ import {
   NecklessSecond2,
   NecklessSecond3,
   NecklessSecond4,
-  NecklessSecond5,
-  NecklessSecond6,
-  NecklessSecond7,
+  // NecklessSecond5,
+  // NecklessSecond6,
+  // NecklessSecond7,
 } from "../asstes";
 function SecondNeckS() {
   return (

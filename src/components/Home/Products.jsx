@@ -13,10 +13,10 @@ import {
   product7,
   product8,
   logo,
-  NecklessSecond5,
+  // NecklessSecond5,
 } from "../asstes";
 function Products() {
-  const [value, setValue] = React.useState(2);
+  // const [value, setValue] = React.useState(2);
   const [buttonPopup, SetButtonPopup] = useState(false);
   let data = [
     {

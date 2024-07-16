@@ -1,6 +1,6 @@
 import React from "react";
-import TopSection from "./TopSection";
-import Menu from "./Menu";
+// import TopSection from "./TopSection";
+// import Menu from "./Menu";
 import Slider from "../components/Home/Slider";
 import Collection from "../components/Home/Collection";
 import Products from "../components/Home/Products";
