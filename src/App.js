@@ -8,11 +8,9 @@ import Bracelet from "./components/Bracelet";
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
-  gtmId: '<YOUR GTM ID>'
+  gtmId: '<GTM-MFQ42D34>'
 }
-
 TagManager.initialize(tagManagerArgs)
-
 function App() {
   return (
     <BrowserRouter>
